@@ -3,7 +3,7 @@ import { a11yDark } from 'react-syntax-highlighter/dist/esm/styles/hljs'
 
 const listCodeString = [
     {
-        title: 'Sử dụng vòng lặp thông thường.',
+        title: 'Use a regular loop.',
         codeString: `
     var sum_to_n_a = function(n) {
         let sum = 0;
@@ -14,14 +14,14 @@ const listCodeString = [
     };`,
     },
     {
-        title: 'Sử dụng cấp số cộng.',
+        title: 'Use an arithmetic progression.',
         codeString: `
     var sum_to_n_b = function(n) {
         return (n * (n + 1)) / 2;
     };`,
     },
     {
-        title: 'Sử dụng đệ quy.',
+        title: 'Using recursion.',
         codeString: `
     var sum_to_n_c = function(n) {
         if (n === 1) return 1;
@@ -33,7 +33,7 @@ const listCodeString = [
 const ThreeWaysToSumToN = () => {
     return (
         <div className="">
-            <h3 className="text-4xl mb-5 font-bold text-center">Ba cách tính tổng đến n:</h3>
+            <h3 className="text-4xl mb-5 font-bold text-center">Three ways to sum to n:</h3>
             <div className="mt-5 flex gap-4">
                 {listCodeString.map(({ codeString, title }, idx) => (
                     <div className="">

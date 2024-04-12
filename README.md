@@ -1,25 +1,32 @@
-# Xin chào, HR
+# Hi, HR
 
->NOTE: Trong repo này của tôi sẽ có một số thay đổi nhất định với repo template, nhưng chỉ với mục đích để anh HR có thể dễ nhận xét và đỡ mất thời gian của anh HR, tôi xin được phép đưa tất cả các vấn đề vào các component khác nhau và thể hiện nó lên một trang web thay vì tách ra từng folder, trân trọng.
+>NOTE: In this repo of mine, there will be certain changes compared to the template repo, but solely for the purpose of making it easier for HR to review and saving HR's time. I would like to request permission to put all the issues into different components and showcase them on a webpage instead of separating them into individual folders. Thank you.
 
 ## Hình ảnh minh họa
 
-Vấn đề 1: Three ways to sum to n
+Problem 1: Three ways to sum to n
 
 ![alt text](image.png)
 
-Vấn đề 2: Fancy Form
+Problem 2: Fancy Form
 
 ![alt text](image-1.png)
 
-Vấn đề 3: Messy React
+Problem 3: Messy React
 
 ![alt text](image-2.png)
 
-## Lệnh có sẵn
-Để có thể chạy được Source Code thì chỉ cần hai lệnh sau
+## Running
+To run the source code, just need the following two commands:
 
-### `npm install`
+To install dependencies.
 
-### `npm start`
+```
+npm install
+```
 
+Run project.
+
+```
+npm start
+```

@@ -52,48 +52,48 @@ const MessyReact = () => {
             </SyntaxHighlighter>
 
             <div className="w-[40%] p-3">
-                <h3 className="text-3xl font-bold">Danh sách những điểm kém hiệu quả:</h3>
+                <h3 className="text-3xl font-bold">List of Ineffective Points:</h3>
                 <div className="mt-2">
                     <ol className="list-disc">
                         <li className="ml-5 mb-2">
-                            <p>Nếu chỉ với mục đích sử dụng các hooks thì props sẽ được tôi destructuring trên params của Component.</p>
+                            <p>If only using hooks, I will destructure props within the Component's params.</p>
                             <span className="block">
-                                <strong>Giải thích:</strong> Tránh thêm dòng không cần thiết.
+                                <strong>Explaining further:</strong> Avoid adding unnecessary lines.
                             </span>
                         </li>
                         <li className="ml-5 mb-2">
-                            <p>Tôi sẽ loại bỏ những điều kiện lòng cấp gây khó hiểu và ưu tiên kiểm tra điều kiện xấu nhất trước.</p>
+                            <p>I will remove complex nested conditions and prioritize checking for the worst-case scenario first.</p>
                             <span className="block">
-                                <strong>Giải thích:</strong> Code sẽ dễ đọc và kiểm soát.
+                                <strong>Explaining further:</strong> The code will be easier to read and manage.
                             </span>
                         </li>
                         <li className="ml-5 mb-2">
-                            Interface FormattedWalletBalance có thể extend WalletBalance
+                            The FormattedWalletBalance interface can extend WalletBalance.
                             <span className="block">
-                                <strong>Giải thích:</strong> Khi thiếu property cần thiết khác cho WalletBalance không phải đi thêm ở cả hai interface.
+                                <strong>Explaining further:</strong> When lacking other necessary properties for WalletBalance, it's unnecessary to add them to both interfaces.
                             </span>
                         </li>
                         <li className="ml-5 mb-2">
-                            Trong sortedBalances nó không hề sử dụng prices vì vậy tôi có thể loại bỏ nó ra khỏi deps
+                            In sortedBalances, it doesn't use prices at all, so I can remove it from the dependencies.
                             <span className="block">
-                                <strong>Giải thích:</strong> Tránh hàm tính toán sai lệch khi có deps bị thừa
+                                <strong>Explaining further:</strong> Avoid incorrect calculation functions when there are redundant dependencies.
                             </span>
                         </li>
                         <li className="ml-5 mb-2">
                             Loại bỏ hàm formattedBalances.
                             <span className="block">
-                                <strong>Giải thích:</strong> Có thể formatBalances trong lúc loop rows.
+                                <strong>Explaining further:</strong> It's possible to formatBalances within the loop of rows.
                             </span>
                         </li>
                         <li className="ml-5 mb-2">
                             Loại bỏ biến rows và đưa code xuống return.
                             <span className="block">
-                                <strong>Giải thích:</strong> Trong code sẽ gọn hơn và tránh tốn thêm một dòng.
+                                <strong>Explaining further:</strong> The code will be more concise and avoid adding an extra line.
                             </span>
                         </li>
                     </ol>
                 </div>
-                <p>Tuy nhiên có một số vấn đề khác ở đây tùy thuộc vào mức độ scale của component và độ rõ ràng của từng logic hoạt động cần phải được xác định rõ.</p>
+                <p>However, there are other issues here depending on the scale of the component and the clarity of each logic operation, which need to be clearly defined.</p>
             </div>
         </div>
     )
